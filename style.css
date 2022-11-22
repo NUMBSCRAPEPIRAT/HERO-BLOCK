@@ -1,0 +1,171 @@
+body {
+  background:linear-gradient(to right,#000000 55%,#57B8FF 45%);
+  font-family: 'Orbitron', sans-serif;
+}
+img .logo{
+  display: flex;
+  align-items: center;
+}
+header {
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  margin: 0px 28px;
+  padding: 18px 18px auto;
+}
+
+nav>a .link {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  margin:30px 30px auto;
+  font-weight: 400;
+}
+ .buttons{
+  display: flex;
+  align-items: center;
+
+}
+.container{
+  display: flex;
+  height: 32px;
+  padding-right: 40px;
+  align-items: center;
+}
+
+.icon{
+  background-color: #fff;
+    color: #141820;
+    padding: 6px 6px;
+    font-size: 11px;
+    border-radius: 9px;
+    line-height: 7px;
+  position:absolute;
+  top: 15px;
+  right: 218px;
+}
+.type-button{
+    color:white;
+    padding: 16px 31px;
+    background: none;
+    border: 1px solid #fff;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    user-select: none;
+    align-items: center;
+}
+:active{
+  color: #FAC422;
+}
+.hero {
+  position: absolute;
+    height: 800px;
+    left: 950px;
+    right: 500px;
+    top: 275px;
+
+    background: url(.png);
+    border-radius: 0px;
+}
+.main_text {
+  position: absolute;
+  height: 56px;
+  left: 80px;
+  right: 500px;
+  top: 250px;
+
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+.ft {
+  position: absolute;
+  font-family: 'Orbitron';
+  font-style: normal;
+  left: 130px;
+  top: 220px;
+}
+.ft2 {
+  color: #57B8FF;
+}
+.fire {
+  position: absolute;
+  display: inline-block;
+  top: 215px;
+  left: 90px;
+  
+}
+.network {
+  position: absolute;
+  font-family: 'Orbitron';
+  font-style: normal;
+  writing-mode:  vertical-rl;
+  transform: rotate(-180deg);
+  line-height: 40px;
+  color: #80858F;
+  width: 170px;
+  height: 280px;
+}
+.socnetwork {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120px;
+}
+ .main_text>.yline{
+  position: absolute;
+  height: 16px;
+  left: 33.18%;
+  right: 1.06%;
+  top: 165px;
+  
+  border-radius: 0px;
+
+}
+.lr {
+  position: absolute;
+  font-family: 'Orbitron';
+  font-style: normal;
+  color: #999999;
+  font-size: 16px;
+  left: 80px;
+  top: 520px;
+}
+.frame {
+  border: 1px solid #57B8FF;
+  color: #57B8FF;
+  text-decoration: none;
+  left: 60px;
+  width: 200px;
+  top: 640px;
+  position: absolute;
+  background: #57B8FF;
+  height: 65px;
+
+}
+.more {
+  position: absolute;
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-size: 17px;
+  left: 35px;
+  width:  140px;
+  top: 5px;
+}   
+
+.team {
+  position: absolute;
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-size: 16px;
+  left: 300px;
+  top: 665px;
+}
